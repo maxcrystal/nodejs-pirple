@@ -1,0 +1,10 @@
+{
+	"Margarita": {"type": "pizza", "price": 10},
+	"Pepperoni": {"type": "pizza", "price": 12},
+	"New Yorker": {"type": "pizza", "price": 15},
+	"Quattro Formaggi": {"type": "pizza", "price": 17},
+	"Coca-Cola": {"type": "drink", "price": 2.5},
+	"Coca-Cola Zero": {"type": "drink", "price": 2.5},
+	"Borjomi": {"type": "drink", "price": 4},
+	"Sviatoy Istochnik": {"type": "drink", "price": 2}
+}

@@ -1,0 +1,39 @@
+<h1>{head.title}</h1>
+<h2>Your order will be delivered within 1 hour</h2>
+
+<table id="order"></table>
+
+<hr>
+
+<div id="payment">
+	<p class="centered">
+		Please enter your payment detail below. Your receipt will be sent to your email.
+	</p>
+</div>
+
+
+<div class="formWrapper">
+	<form id="orderCreate" action="api/orders" method="POST">
+		<div class="formError"></div>
+		<div class="inputWrapper">
+			<div class="inputLabel">Name on Card</div>
+			<input type="text" name="name" placeholder="James Bond">
+		</div>
+		<div class="inputWrapper">
+			<div class="inputLabel">Credit Card Number</div>
+			<input type="text" name="cardNumber" placeholder="4242 4242 4242 4242">
+		</div>
+		<div class="inputWrapper">
+			<div class="inputLabel">CVC</div>
+			<input type="password" name="cvc" autocomplete="new-password" placeholder="007">
+		</div>
+		<div class="inputWrapper">
+			<div class="inputLabel">Expires</div>
+			<input type="text" name="expires" placeholder="08/22">
+		</div>
+		<div class="inputWrapper ctaWrapper">
+			<a class="cta green" href="menu">Back to Menu</a>
+			<button type="submit" class="cta blue" id="checkout">Checkout</button>
+		</div>
+	</form>
+</div>
